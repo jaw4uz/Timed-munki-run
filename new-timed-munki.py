@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/local/munkireport/munkireport-python3
 
 #based on Rmanly's Munki_preflight script https://github.com/rmanly/munki_preflight
 #and help from RPhillips and Rmanly. This script should be placed in /usr/local/munki/preflight_abort.d if you are running MunkiReport
 
-from sys import argv
+from sys import argv, exit
 from time import localtime
 
 # 24 hour clock remove the hour(s) you want munki to run            
